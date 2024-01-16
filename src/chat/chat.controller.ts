@@ -10,7 +10,7 @@ export class ChatController {
     return { message: 'Welcome to the chatbot API!' };
   }
 
-  @Post('chatbot/ask')
+  @Post('chatbot')
   handleInput(@Body('question') userInput: string) {
     const response = this.chatService.handleUserInput(userInput);
     return response;
