@@ -10,7 +10,7 @@ export class ChatService {
         return { response: 'Namaste 🙏🏻' };
       case 'who are you':
         return { response: 'I am a friendly chatbot!' };
-      case 'who build you':
+      case 'who built you':
         return { response: 'Vishal, he is a Front End Developer 👨🏻‍💻' };
       case 'how are you today':
         return { response: "I don't have feelings, but I'm here to help you!" };
@@ -46,9 +46,9 @@ export class ChatService {
         };
       case 'how tall are you':
         return {
-          response: "I don't have a physical form, so I don't have height.",
+          response: 'It depends on your smartphone screen.',
         };
-      case 'what is your favorite color':
+      case 'what is your favourite colour':
         return {
           response:
             "I don't have preferences, but I can help you with color-related information.",
