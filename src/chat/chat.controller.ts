@@ -1,7 +1,7 @@
 import { Controller, Post, Body, Get } from '@nestjs/common';
 import { ChatService } from './chat.service';
 
-@Controller('chatbot')
+@Controller()
 export class ChatController {
   constructor(private chatService: ChatService) {}
 
@@ -10,7 +10,7 @@ export class ChatController {
     return { message: 'Welcome to the chatbot API!' };
   }
 
-  @Post('ask')
+  @Post('chatbot/ask')
   handleInput(@Body('question') userInput: string) {
     const response = this.chatService.handleUserInput(userInput);
     return response;
