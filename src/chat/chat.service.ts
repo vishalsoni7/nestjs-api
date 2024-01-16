@@ -6,10 +6,12 @@ export class ChatService {
     const normalizedInput = userInput.toLowerCase();
 
     switch (normalizedInput) {
+      case 'hello':
+        return { response: 'Namaste 🙏🏻' };
       case 'who are you':
         return { response: 'I am a friendly chatbot!' };
       case 'who build you':
-        return { response: 'Vishal, he is a Front End Developer.' };
+        return { response: 'Vishal, he is a Front End Developer 👨🏻‍💻' };
       case 'how are you today':
         return { response: "I don't have feelings, but I'm here to help you!" };
       case 'what can you do for me':
