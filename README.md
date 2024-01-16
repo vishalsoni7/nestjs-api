@@ -26,6 +26,38 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+# AI Chatbot Backend (Nest.js)
+
+## Overview
+
+This backend component is built using Nest.js, providing a robust foundation for handling REST API requests in the AI Chatbot application. The backend exposes two main endpoints: GET / to retrieve the initial page of the app, and POST /api/chat to handle incoming questions and return corresponding responses.
+
+## Project Structure
+
+- src/: Contains the source code of the Nest.js application.
+- main.ts: Entry point of the application.
+- app.controller.ts: Defines the routes and controllers for handling requests.
+- app.service.ts: Implements the logic to process questions and generate responses.
+
+## Predefined Questions
+
+- hello
+- who are you
+- who build you
+- how are you today
+- what can you do for me
+- where are you located
+- what is the meaning of life
+- how do you work
+- can you tell a joke
+- what's the weather like today
+- how tall are you
+- what is your favorite color
+- can you sing a song
+- do you dream
+- what languages do you speak
+- are you a robot
+
 ## Installation
 
 ```bash
