@@ -30,7 +30,7 @@
 
 ## Overview
 
-This backend component is built using Nest.js, providing a robust foundation for handling REST API requests in the AI Chatbot application. The backend exposes two main endpoints: GET / to retrieve the initial page of the app, and POST /api/chat to handle incoming questions and return corresponding responses.
+This backend component is built using Nest.js, providing a robust foundation for handling REST API requests in the AI Chatbot application. The backend exposes two main endpoints: GET / to retrieve the initial page of the app, and POST /api/chatbot to handle incoming questions and return corresponding responses.
 
 ## Project Structure
 
